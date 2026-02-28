@@ -1,0 +1,175 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(236, 64, 122, 0.15);
+  border: 1px solid #fce4ec;
+}
+
+h2 {
+  color: #880e4f;
+  border-bottom: 3px solid #f8bbd0;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+h3 {
+  color: #ad1457;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #fce4ec;
+  border-left: 6px solid #f48fb1;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.15);
+}
+
+li br {
+  display: none;
+}
+
+li span,
+li {
+  font-weight: 500;
+  font-size: 16px;
+  color: #555;
+}
+
+li button:first-of-type {
+  margin-left: auto;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+form {
+  background: #fce4ec;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #f8bbd0;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  color: #880e4f;
+}
+
+input[type="text"],
+input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 2px solid #f06292;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+input:focus {
+  border-color: #ad1457;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.1);
+}
+
+button,
+a {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: normal;
+}
+
+button:not([routerLink]) {
+  background-color: #ec407a;
+  color: white;
+}
+button:not([routerLink]):hover {
+  background-color: #ec407a;
+}
+
+form button[type="submit"] {
+  background-color: #ec407a;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+form button[type="submit"]:hover {
+  background-color: #d81b60;
+}
+
+a[routerLink$="new"],
+a[routerLink$="add"] {
+  background-color: #de6f8e;
+  color: white;
+  margin-top: 0;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+a[routerLink$="new"]:hover {
+  background-color: #b35a73;
+  transform: translateY(-2px);
+}
+
+a:not([routerLink$="new"]):not([routerLink$="add"]) {
+  background-color: #f8bbd0;
+  color: #880e4f;
+  border: 1px solid #f48fb1;
+  margin-top: 20px;
+}
+
+a:not([routerLink$="new"]):not([routerLink$="add"]):hover {
+  background-color: #f48fb1;
+  color: #fff;
+}
+
+p strong {
+  color: #880e4f;
+  margin-right: 10px;
+}
