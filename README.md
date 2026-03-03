@@ -31,7 +31,7 @@ System służy do zarządzania strukturą organizacyjną firmy (Firmy i Pracowni
 ### Infrastruktura:
 * **Docker & Docker Compose**: Konteneryzacja i orkiestracja usług
 
-## ⚙️ Uruchomienie projektu (Docker)
+## Uruchomienie projektu (Docker)
 
 Najszybszym sposobem na uruchomienie pełnego systemu (Backend + Frontend + Gateway) jest użycie Dockera. Przejdź do katalogu `Lab6` i wykonaj:
 
